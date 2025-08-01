@@ -5,7 +5,7 @@ import random
 
 
 
-TOR_PROXY = {   #replaceable
+TOR_PROXY = {   
     'http': 'socks5h://127.0.0.1:9050', 
     'https': 'socks5h://127.0.0.1:9050'
 }
@@ -93,10 +93,10 @@ def main():
         return  
 
     if count == 0:
-        print(MESSAGES[lang]['infinite_mode'])  #forever
+        print(MESSAGES[lang]['infinite_mode'])  
         while True:
             change_tor_ip(lang)
-            print(MESSAGES[lang]['ip_output'], get_ip(lang))  #visible output
+            print(MESSAGES[lang]['ip_output'], get_ip(lang))  
             time.sleep(random.randint(interval - 5, interval + 5))  
     else:
         for i in range(count):
