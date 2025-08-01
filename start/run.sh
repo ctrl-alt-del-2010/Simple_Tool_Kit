@@ -54,7 +54,7 @@ case "$cevap" in
         read -p "Devam etmek için enter tuşuna bas... "
         ;;
     6)
-        clear && xterm -geometry 100x24 -e 'python3 ~/start/ip_changer/ip_changer.py'
+        clear && xterm -geometry 100x24 -e 'python3 ~/start/ip_changer.py'
         read -p "Devam etmek için enter tuşuna bas... "
         ;;
 
