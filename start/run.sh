@@ -26,6 +26,8 @@ echo -e "      ${kirmizi}[${sari}04${kirmizi}]${reset} Red Hawk"
 echo -e "      ${kirmizi}[${sari}05${kirmizi}]${reset} Tor Browser"
 echo -e "      ${kirmizi}[${sari}06${kirmizi}]${reset} İp Changer"
 echo -e "      ${kirmizi}[${sari}07${kirmizi}]${reset} İwctl"	
+echo ""
+echo -e "      ${kirmizi}[${sari}99${kirmizi}]${reset} Exit"
 
 read -p "> " cevap
 
@@ -62,7 +64,9 @@ case "$cevap" in
         clear && systemctl start iwd && xterm -geometry 100x24 -e iwctl
         read -p "Devam etmek için enter tuşuna bas... "
         ;;
-
+     99)
+        echo "Exiting..." exit 0
+        ;;
     esac
 
 done
