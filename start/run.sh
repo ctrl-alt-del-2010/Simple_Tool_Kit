@@ -48,7 +48,6 @@ echo -e "      ${kirmizi}[${sari}04${kirmizi}]${reset} Red Hawk"
 echo -e "      ${kirmizi}[${sari}05${kirmizi}]${reset} Tor Browser"
 echo -e "      ${kirmizi}[${sari}06${kirmizi}]${reset} İp Changer"
 echo -e "      ${kirmizi}[${sari}07${kirmizi}]${reset} İwctl"	
-echo -e "      ${kirmizi}[${sari}07${kirmizi}]${reset} İwctl"
 
 read -p "> " cevap
 
