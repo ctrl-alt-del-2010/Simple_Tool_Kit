@@ -65,7 +65,7 @@ case "$cevap" in
         read -p "Devam etmek için enter tuşuna bas... "
         ;;
      99)
-        echo "Exiting..." exit 0
+        echo "Exiting..." && exit 0
         ;;
     esac
 
