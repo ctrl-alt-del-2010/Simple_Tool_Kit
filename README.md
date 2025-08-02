@@ -8,4 +8,4 @@ network operations, and automation tasks.
 ## license
 
 This project is licensed under the MIT License 
-see the [LİCENSE.txt](./LICENSE.txt) file for details.
+see the [LİCENSE.txt](/start/LICENSE.txt) file for details.
